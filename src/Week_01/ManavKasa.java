@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class ManavKasa {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //Ürünlerin fiyat girişini yaptım
+        //Ürünlerin fiyat girişi ve atamaları yapıldı
         double armutFiyat= 2.14 , elmaFiyat = 3.67 , domatesFiyat = 1.11, muzFiyat = 0.95, patlıcanFiyat = 5.00 , hesap = 0.00;
 
+
+        //Ürünlerin fiyat bilgisini konsola yazdırıldı
         System.out.println("----------------------------" );
         System.out.println("Ürün Fiyat Listesi" );
         System.out.println("Armut = " + armutFiyat );
@@ -15,6 +17,7 @@ public class ManavKasa {
         System.out.println("Patlıcan = " +  patlıcanFiyat );
         System.out.println("----------------------------" );
 
+        //Kullanıcıdan veri girişi alındı ve toplam hesaba eklendi
         System.out.print("Armut kaç kilo ? : ");
         double armutAl = input.nextDouble();
         hesap+= (armutAl * armutFiyat);
@@ -35,6 +38,7 @@ public class ManavKasa {
         double patlıcanAl = input.nextDouble();
         hesap+= (patlıcanAl * patlıcanFiyat);
 
+        //Toplam ücret ekrana yazdırıldı
         System.out.println("----------------------------" );
         System.out.print("Toplam ücret tutarınız : " + hesap);
     }
