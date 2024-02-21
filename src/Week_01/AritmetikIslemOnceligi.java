@@ -5,7 +5,7 @@ public class AritmetikIslemOnceligi {
     public static void main(String[] args) {
 
         int sayi1,sayi2,sayi3;
-        double sonuc;
+        double result;
         Scanner input = new Scanner(System.in);
 
         System.out.print("1. sayıyı giriniz : ");
@@ -17,9 +17,9 @@ public class AritmetikIslemOnceligi {
         System.out.print("3. sayıyı giriniz : ");
         sayi3 = input.nextInt();
 
-        sonuc = sayi1 + sayi2 * sayi3 - sayi2;
+        result = sayi1 + sayi2 * sayi3 - sayi2;
 
-        System.out.println("Sonuç : " + sonuc);
+        System.out.println("Sonuç : " + result);
 
     }
 }
