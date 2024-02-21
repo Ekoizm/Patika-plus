@@ -6,7 +6,7 @@ public class VucutKitleIndeksi {
         Scanner input = new Scanner(System.in);
 
         //Kullanıcıdan veri istedik
-        System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz : ");
+        System.out.print("Lütfen boyunuzu (metre cinsinden örn:1.85) giriniz : ");
         boy = input.nextDouble();
 
         System.out.print("Lütfen kilonuzu giriniz : ");
