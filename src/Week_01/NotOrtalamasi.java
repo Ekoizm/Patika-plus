@@ -31,9 +31,9 @@ public class NotOrtalamasi {
         double sonuc = toplam / 6.0;
         System.out.println("Ortalamanız: " + sonuc);
 
-        String gk = (sonuc >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
+        String geka = (sonuc >= 60) ? "Sınıfı Geçti" : "Sınıfta Kaldı";
 
-        System.out.println(gk);
+        System.out.println(geka);
 
 
     }
