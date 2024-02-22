@@ -58,6 +58,7 @@ public class CinZodyagı {
                 zodyak = "Geçersiz";
                 break;
         }
+        //Çıktımızı ekrana yazdırdık
         System.out.println("Çin Zodyağı Burcunuz: " + zodyak);
     }
 }
