@@ -54,9 +54,6 @@ public class CinZodyagı {
             case 11:
                 zodyak = "Tavuk";
                 break;
-            default:
-                zodyak = "Geçersiz";
-                break;
         }
         //Çıktımızı ekrana yazdırdık
         System.out.println("Çin Zodyağı Burcunuz: " + zodyak);
