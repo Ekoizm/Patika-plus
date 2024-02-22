@@ -10,12 +10,12 @@ public class CinZodyagı {
         //Kullanıcıdan veri istedik
         System.out.print("Lütfen doğum yılınızı giriniz : ");
         year = input.nextInt();
-
         zodyakf = year % 12;
-
+        String zodyak = null;
 
         //Zodyak hayvanlarını içeren swicth-case dizisi
-        String zodyak;
+
+        
 
         switch (zodyakf) {
             case 0:
