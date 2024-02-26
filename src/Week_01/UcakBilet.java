@@ -8,13 +8,13 @@ public class UcakBilet {
 
 
         //Kullanıcıdan veri bilgisi istedik
-        System.out.print("Mesafe (KM): ");
+        System.out.print("Mesafe (KM) türünden giriniz : ");
         int mesafe = scanner.nextInt();
 
-        System.out.print("Yaşınız: ");
+        System.out.print("Yaşınızı giriniz: ");
         int yas = scanner.nextInt();
 
-        System.out.print("Yolculuk Tipi (1: Tek Yön, 2: Gidiş-Dönüş): ");
+        System.out.print("Yolculuk tipini giriniz (1 => Tek Yön, 2 => Gidiş Dönüş): ");
         int yolculukTipi = scanner.nextInt();
         double birimFiyat = 0.10;
         double ucret = mesafe * birimFiyat;
