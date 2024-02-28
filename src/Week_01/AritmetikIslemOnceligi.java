@@ -8,6 +8,7 @@ public class AritmetikIslemOnceligi {
         double result;
         Scanner input = new Scanner(System.in);
 
+        //Kullanıcıdan veri girişi istendi
         System.out.print("1. sayıyı giriniz : ");
         sayi1 = input.nextInt();
 
@@ -17,8 +18,10 @@ public class AritmetikIslemOnceligi {
         System.out.print("3. sayıyı giriniz : ");
         sayi3 = input.nextInt();
 
+        //Sonuç için işlem önceliği formülü yazıldı
         result = sayi1 + sayi2 * sayi3 - sayi2;
 
+        //Sonuç ekrana yazdırıldı
         System.out.println("Sonuç : " + result);
 
     }
