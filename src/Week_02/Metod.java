@@ -4,10 +4,10 @@ public class Metod {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Bir sayı giriniz: ");
         int n = scanner.nextInt();
         sequence(n);
-
     }
     public static void sequence(int num){
 
@@ -17,6 +17,7 @@ public class Metod {
         }else
         System.out.println(num + "");
         sequence( num - 5);
+
         System.out.println(num + "");
     }
 }
