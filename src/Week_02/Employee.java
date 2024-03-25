@@ -66,7 +66,7 @@ public class Employee {
                 "Total Salary : " + ((salary+bonus(workHours)-tax(salary))+raiseSalary(hireYear,salary));
     }
     public static void main(String[] args) {
-        // Örnek kullanım
+        // Örnek
         Employee employee = new Employee("Kemal", 2000, 45, 1985);
         System.out.println(employee);
     }
